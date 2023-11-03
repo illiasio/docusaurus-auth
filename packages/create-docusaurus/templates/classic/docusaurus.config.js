@@ -34,6 +34,15 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      'docusaurus2-dotenv',
+      {
+        systemvars: true
+      }
+    ]
+  ],
+
   presets: [
     [
       'classic',
